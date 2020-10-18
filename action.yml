@@ -11,6 +11,14 @@ inputs:
     description: "Commit message used while committing to the repo"
     default: ":zap: Update README with the recent activity"
     required: false
+  COMMIT_USERNAME:
+    description: "Commit username used while committing to the repo"
+    default: "readme-bot"
+    required: false
+  COMMIT_EMAIL:
+    description: "Commit email used while committing to the repo"
+    default: "readme-bot@example.com"
+    required: false
 
 branding:
   color: yellow
